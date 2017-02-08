@@ -4,4 +4,4 @@ name: timer-linux
 dependencies: []
 
 files:
-- timer_linux/timer-linux
+- timer-linux/timer-linux
