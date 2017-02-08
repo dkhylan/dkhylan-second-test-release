@@ -16,7 +16,7 @@ case $1 in
     
     chmod +x timer-linux    
 
-    exec timer-linux \
+    exec /var/vcap/packages/timer-linux/timer-linux \
       >>  $LOG_DIR/timer-linux.stdout.log \
       2>> $LOG_DIR/timer-linux.stderr.log
 
