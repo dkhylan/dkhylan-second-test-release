@@ -1,5 +1,5 @@
-check process timer_linux
-  with pidfile /var/vcap/sys/run/timer_linux/pid
-  start program "/var/vcap/jobs/timer_linux/bin/ctl start"
-  stop program "/var/vcap/jobs/timer_linux/bin/ctl stop"
+check process timer-linux
+  with pidfile /var/vcap/sys/run/timer-linux/pid
+  start program "/var/vcap/jobs/timer-linux/bin/ctl start"
+  stop program "/var/vcap/jobs/timer-linux/bin/ctl stop"
   group vcap
