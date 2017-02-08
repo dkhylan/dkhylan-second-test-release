@@ -12,7 +12,7 @@ case $1 in
 
     echo $$ > $PIDFILE
 
-    cd /var/vcap/packages/timer_linux
+    cd /var/vcap/packages/timer-linux
 
     exec timer_linux \
       >>  $LOG_DIR/web_ui.stdout.log \
