@@ -1,6 +1,7 @@
 ---
 name: timer-linux
 
-dependencies:
+dependencies: []
 
 files:
+- timer_linux/timer-linux

@@ -3,3 +3,4 @@ name: timer-linux
 templates:
   ctl.erb: bin/ctl
 packages:
+- timer-linux
